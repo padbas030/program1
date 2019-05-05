@@ -15,7 +15,9 @@ break;
 case '*':res=a*b;
 break;
 case '/':res=a/b
-break
+break;
+case '%':res=a%b;
+break;
 default:printf("invalid operation\n");
 exit(0);
 }
