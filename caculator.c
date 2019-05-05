@@ -18,6 +18,7 @@ case '/':res=a/b
 break;
 case '%':res=a%b;
 break;
+    case:
 default:printf("invalid operation\n");
 exit(0);
 }
